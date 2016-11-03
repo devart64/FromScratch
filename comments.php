@@ -1,14 +1,5 @@
 <?php
-/*
- * @package WordPress
- * @subpackage Tuto_Wordpress_Finalclap
- *
- * Template utilisé pour l'affichage des commentaires :
- *  - liste des commentaires
- *  - affichage du formulaire d'envoi de commentaire
- * 
- * Il est inclus par le template single.php lors de l'appel à comments_template();
-**/
+
 ?>
 <div id="comments">
 
