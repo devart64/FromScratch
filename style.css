@@ -1,0 +1,49 @@
+/*
+Theme name: FromScratch
+Author:Stephen Dupré
+Description: Création d'un thème wp à partie de zéro pour projet de cours.
+Version:0.1
+
+
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body{max-width: 1920px;margin:0 auto;background-color: #4795c7;}
+
+#header-nav{width: 100%; height: 220px; position: fixed;z-index:20;background-color: #03426a;margin-top: -40px;opacity:0;}
+
+
+
+header{width: 1920px;height: 150px;position: relative;margin-top: -50px;display: flex;background-color: #EDEDED;
+    z-index:20;
+  }
+#header img{width: 40px; height: 40px; position: fixed; top: 140px; left:500px;
+    }
+h1{display: flex;position: fixed;top: -15px;margin-left:42%;margin-right:auto;
+  width: 100%; }
+h1 a{display: flex;font-family: 'Gabriola';font-size: 64pt;text-decoration: none;color: #fd5959;}
+h1 a:hover{color: #304D90;}
+
+#topmenu ul{ position: fixed;top:120px;left:0;padding-left:27%;width: 1720px;height:50px;display: inline-flex; background-color: #055488;
+   }
+#topmenu ul li{list-style-type: none; position: relative; margin-top: 10px;margin-left:40px;}
+#topmenu ul li a{list-style-type: none;text-decoration: none;font-family: Verdana;font-size: 18pt;  color: #ffffff !important;}
+#topmenu ul li a:hover{color: #fd5959 !important;}
+
+#headerwidget{position:fixed; top:185px; right: 10px;
+    }
+.screen-reader-text{color: #304d90;}
+#searchform #s{color: #fd5959 !important;}
+#searchsubmit{color: #fd5959;}
+
+#main{width:100%;height: 100%; position:absolute;}
+#slideshow{max-width: 1920px;position: relative; top: 150px; display: block;margin-left: auto; margin-right: auto;}
+.bienvenue{max-width:1000px;margin-left: auto; margin-right: auto; position: relative; top: -250px; z-index: 10; color: #ffffff;text-shadow: 2px 2px #fd5959;}
+.bienvenue p{text-align: center; font-size: 3.5em; font-family: 'Roboto';}
+.paragraphe-acceuil{ width: 1000px; height: auto; margin-left: auto; margin-right: auto;}
+.paragraphe-acceuil p{text-align: center; font-size: 1.5em; color: #ffffff;}
+#sidebar{position: relative; top:200px;}
+
+#sidebar-home{position: relative; bottom: 0;}
+code{position: relative; top: 300px;}
+code #1{position: relative; top: 300px;}
